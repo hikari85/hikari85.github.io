@@ -1,38 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Prabhas Bhat</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      line-height: 1.6;
-    }
-    h1 { color: #333; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prabhas Bhat | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a2e0e6ad53.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-  <h1>Prabhas Bhat</h1>
-  <p>Computer Science Graduate | Developer | Research Enthusiast</p>
+  <!-- HEADER -->
+  <header class="header">
+    <img src="assets/profile.jpg" alt="Prabhas Bhat" class="profile-img">
+    <h1>Prabhas Bhat</h1>
+    <p class="subtitle">B.Sc. Data Science (Honors) | ML • Data • Full Stack</p>
 
-  <h2>About Me</h2>
-  <p>
-    I am interested in software development, machine learning,
-    and applied research.
-  </p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/prabhas-bhat-142a9330a" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/hikari85" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>OCR for Electoral Roll Data</li>
-    <li>Audio Classification using CNN</li>
-  </ul>
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Data Science undergraduate with strong experience in Python, machine learning,
+      and data analytics. Built and deployed ML models for sentiment analysis and
+      image classification using Flask, TensorFlow, and NLP techniques.
+    </p>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: prabhasbhat2@gmail.com</p>
-  <p>GitHub: <a href="https://github.com/hikari85">yourusername</a></p>
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><b>RV University</b> — B.Sc. (Honours) Data Science (CGPA: 8.76)</li>
+      <li><b>RV PU College</b> — 86%</li>
+      <li><b>JSS Public School</b> — CBSE 10th (CGPA: 9.8)</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Steam Reviews Sentiment Classification</h3>
+      <p>MLP-based sentiment classifier using TF-IDF + Flask</p>
+      <a href="https://github.com/hikari85/NLP_Steamreviews_Flask" target="_blank">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>NutriSync – AI Fitness Web App</h3>
+      <p>Flask + MongoDB app with AI chatbot and dashboards</p>
+      <a href="https://github.com/hikari85/Nutrisync" target="_blank">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>OCR for Electoral Roll Data (Capstone)</h3>
+      <p>Multimodal LLM-based document understanding system</p>
+      <a href="https://github.com/hikari85/Capstone_Project_Phase-1" target="_blank">View Project →</a>
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Technical Skills</h2>
+    <p>
+      <b>Languages:</b> Python, JavaScript, HTML/CSS<br>
+      <b>Frameworks:</b> Flask, TensorFlow, Streamlit<br>
+      <b>ML & Data:</b> NLP, CNNs, OpenCV, Spark, Hive<br>
+      <b>Tools:</b> Git, GitHub, Power BI, GCP
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Prabhas Bhat</p>
+  </footer>
 
 </body>
 </html>
